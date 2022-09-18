@@ -159,11 +159,14 @@ body {
   }
 }
 
+.result-loading {
+  display: none;
+  margin-bottom: 136px;
+}
 
 .result-loading img {
   width: 100px;
   animation: loadingRotate 1s linear infinite forwards;
-  display: none;
 }
 
 .cont-btn {
@@ -278,6 +281,5 @@ body {
 
 .cont-modal img {
   width: 370px;
-  margin: 74px 0;
-  
+  margin: 74px 0; 
 }
