@@ -35,7 +35,7 @@
 }
 
 body {
-  background-color: #5B2386;
+  background-color: #5b2386;
   font-family: "GmarketSansMedium";
 }
 
@@ -73,7 +73,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   font-family: "OTEnjoystoriesBA";
-  color: #F5DF4D;
+  color: #f5df4d;
   display: flex;
   justify-content: center;
 }
@@ -91,7 +91,7 @@ body {
   position: absolute;
   text-align: center;
   line-height: 1.9em;
-  top: -15px; 
+  top: -15px;
 }
 
 .txt-desc strong {
@@ -107,7 +107,8 @@ body {
   justify-content: center;
 }
 
-.txt-wannabe, .txt-time {
+.txt-wannabe,
+.txt-time {
   display: flex;
   align-items: center;
   color: #fff;
@@ -129,7 +130,7 @@ body {
 }
 
 .cont-inp input::placeholder {
-  color: #BABCBE;;
+  color: #babcbe;
   text-align: center;
 }
 
@@ -140,9 +141,9 @@ body {
 .btn-exc {
   margin-top: 115px;
   border-radius: 56px;
-  background-color: #FCEE21;
+  background-color: #fcee21;
   font-size: 24px;
-  color:  #5B2386;
+  color: #5b2386;
   font-family: "GmarketSansBold";
   padding: 20px 49px;
   border: none;
@@ -152,10 +153,10 @@ body {
 
 @keyframes loadingRotate {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -180,14 +181,15 @@ body {
 }
 
 .cont-result {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
-  /* display: none; */
   margin-bottom: 136px;
 }
 
 .cont-result h2 {
+  position: absolute;
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -206,19 +208,20 @@ body {
   align-items: center;
 }
 
-.btn-go, .btn-share {
+.btn-go,
+.btn-share {
   padding: 20px 49px;
   font-size: 24px;
   font-family: "GmarketSansBold";
   border-radius: 56px;
   border: none;
-  color: #5B2386;
+  color: #5b2386;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .btn-go {
-  background-color: #FCEE21;
+  background-color: #fcee21;
 }
 
 .btn-share {
@@ -232,7 +235,7 @@ body {
   color: #fff;
   font-size: 12px;
   text-align: center;
-  margin-bottom: 60px;;
+  margin-bottom: 60px;
 }
 
 .cont-footer img {
@@ -241,6 +244,25 @@ body {
 
 .txt-footer {
   line-height: 17px;
+}
+
+.modal {
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
 }
 
 .cont-modal {
@@ -253,25 +275,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-
-.cont-modal h2 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
 }
 
 .modal-txt {
   font-family: "OTEnjoystoriesBA";
   text-align: center;
-  color: #5B2386;
+  color: #5b2386;
   font-size: 40px;
 }
 
@@ -281,5 +290,5 @@ body {
 
 .cont-modal img {
   width: 370px;
-  margin: 74px 0; 
+  margin: 74px 0;
 }
