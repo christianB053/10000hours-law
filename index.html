@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/10000hours.css">
+    <link rel="stylesheet" href="css/10000hours.css" />
     <title>1만 시간의 법칙</title>
   </head>
   <body>
@@ -14,11 +14,7 @@
       <header class="cont-header">
         <h1 class="tit-timelaw">
           <img class="tit__clock-img" src="img/clock.png" alt="" />
-          <img
-            class="tit__txt-img"
-            src="img/title.png"
-            alt="1만 시간의 법칙"
-          />
+          <img class="tit__txt-img" src="img/title.png" alt="1만 시간의 법칙" />
         </h1>
       </header>
       <main class="cont-main">
@@ -34,52 +30,71 @@
         <form class="cont-inp">
           <p class="txt-wannabe">
             나는
-            <input class="wannabe-inp" type="text" placeholder="예)프로그래밍" /> 전문가가 될 것이다.
+            <input
+              class="wannabe-inp"
+              type="text"
+              placeholder="예)프로그래밍"
+              required
+            />
+            전문가가 될 것이다.
           </p>
           <p class="txt-time">
             그래서 앞으로 매일 하루에
-            <input class="time-inp" type="number" placeholder="예)5시간" />
+            <input
+              class="time-inp"
+              type="number"
+              placeholder="예)5시간"
+              required
+            />
             시간씩 훈련할 것이다.
           </p>
           <div class="cont-btn">
-            <button class="btn-exc">
+            <button class="btn-exc" type="button">
               나는 며칠 동안 훈련을 해야 1만 시간이 될까?
             </button>
             <img class="img-click" src="img/click.png" alt="" />
           </div>
           <div class="result-loading">
-            <img src="img/loading.png" alt="">
+            <img src="img/loading.png" alt="" />
           </div>
         </form>
         <section id="result" class="cont-result">
           <h2>결과 확인</h2>
           <p class="txt-wannabe">
-            당신은 <strong class="wannabe-value">프로그래밍</strong> 전문가가 되기 위해서
+            당신은 <strong class="wannabe-value"></strong> 전문가가 되기 위해서
           </p>
           <p class="txt-time">
-            대략 <strong class="time-value">5110</strong>일 이상 훈련하셔야 합니다! :)
+            대략 <strong class="time-value"></strong>일 이상 훈련하셔야 합니다!
+            :)
           </p>
           <div class="result-btn">
-            <button class="modal-open btn-go">훈련하러 가기 GO!GO!</button>
-            <button class="btn-share">공유하기</button>
+            <button class="modal-open btn-go" type="button">
+              훈련하러 가기 GO!GO!
+            </button>
+            <button class="btn-share" type="button">공유하기</button>
           </div>
         </section>
       </main>
       <footer class="cont-footer">
         <img src="img/logo.png" alt="주식회사 위니브" />
         <small class="txt-footer">
-          ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 Weniv에 있습니다.<br />
+          ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 Weniv에
+          있습니다.<br />
           수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
         </small>
       </footer>
-      <section class="cont-modal">
+      <section class="modal">
         <h2>훈련하러 가기 모달</h2>
-        <p class="modal-txt">
-          <strong>화이팅!!♥♥♥</strong><br />
-          당신의 꿈을 응원합니다!
-        </p>
-        <img src="img/licat.png" alt="응원하는 라이캣" />
-        <button class="btn-go close-modal">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+        <article class="cont-modal">
+          <p class="modal-txt">
+            <strong>화이팅!!♥♥♥</strong><br />
+            당신의 꿈을 응원합니다!
+          </p>
+          <img src="img/licat.png" alt="응원하는 라이캣" />
+          <button class="btn-go close-modal" type="button">
+            종료하고 진짜 훈련하러 가기 GO!GO!
+          </button>
+        </article>
       </section>
     </div>
 
