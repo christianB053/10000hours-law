@@ -2,7 +2,7 @@ const btnExc = document.querySelector(".btn-exc");
 const openModal = document.querySelector(".modal-open");
 const btnShare = document.querySelector(".btn-share");
 const closeModal = document.querySelector(".close-modal");
-const modalSection = document.querySelector(".modal");
+const modalSection = document.querySelector("#modal");
 
 function handleResult() {
   const wannabeInp = document.querySelector(".wannabe-inp");
@@ -42,7 +42,7 @@ function handleResult() {
 }
 
 function displayModal() {
-  modalSection.style.display = "none";
+  modalSection.style.display = "flex";
 }
 
 function hiddenModal() {

@@ -187,15 +187,6 @@ body {
   margin-bottom: 136px;
 }
 
-.cont-result h2 {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-}
-
 .cont-result strong {
   font-size: 72px;
   font-family: "GmarketSansBold";
@@ -246,15 +237,14 @@ body {
   line-height: 17px;
 }
 
-.modal {
+#modal {
   position: fixed;
-  top: 100%;
-  left: 100%;
-  /* display: none; */
+  inset: 0;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .modal h2 {
